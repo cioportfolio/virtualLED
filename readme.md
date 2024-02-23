@@ -23,8 +23,8 @@ with virtualLED.VirtualLED(10) as strip:
 ```python
 # Simulate a grid of LEDs. 
 # Assumes typical wiring:
-# - rows linked together into one list
-# - alternate rows reversed
+# - columns linked together into one list
+# - alternate columns reversed
 
 import virtualLED
 from time import sleep
