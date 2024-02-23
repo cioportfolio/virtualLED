@@ -3,7 +3,7 @@ import numpy as np
 
 class VirtualLED:
         
-    def __init__(self, leds, brightness=1.0, led_pixel_size=64, background=(63,63,63)):
+    def __init__(self, leds, brightness=1.0, led_pixel_size=16, background=(63,63,63)):
         pg.init()
         self.bright=brightness
         self.bg=background
